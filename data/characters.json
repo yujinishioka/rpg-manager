@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "level": 20,
+    "races": [
+      { "id": 1, "name": "Human", "subrace": null },
+      { "id": 2, "name": "Elf", "subrace": null }
+    ],
+    "classes": [{ "id": 1, "name": "Rogue", "level": 20 }]
+  },
+  {
+    "id": 2,
+    "name": "Sebas",
+    "level": 20,
+    "races": [{ "id": 3, "name": "Dragonborn", "subrace": "Red" }],
+    "classes": [
+      { "id": 2, "name": "Monk", "level": 17 },
+      { "id": 3, "name": "Fighter", "level": 3 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Touch Me",
+    "level": 20,
+    "races": [{ "id": 4, "name": "Human", "subrace": null }],
+    "classes": [{ "id": 2, "name": "Warrior", "level": 20 }]
+  }
+]

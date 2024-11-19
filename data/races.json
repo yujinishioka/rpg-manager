@@ -1,0 +1,564 @@
+[
+  {
+    "id": 1,
+    "name": "Dragonborn",
+    "base": "basic",
+    "expansion": false,
+    "details": [
+      {
+        "title": "Dragonborn",
+        "description": "<p>Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>"
+      },
+      {
+        "title": "Proud Dragon Kin",
+        "description": "<p>Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6½ feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.</p><p>The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.</p>"
+      },
+      {
+        "title": "Self-Sufficient Clans",
+        "description": "<p>To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn’s conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.</p><p>A continual drive for self-improvement reflects the self-sufficiency of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of a particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.</p><p>Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other races—or even from the gods.</p>"
+      }
+    ],
+    "names": {
+      "description": "<p>Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.</p>",
+      "types": {
+        "male": [
+          "Arjhan",
+          "Balasar",
+          "Bharash",
+          "Donaar",
+          "Ghesh",
+          "Heskan",
+          "Kriv",
+          "Medrash",
+          "Mehen",
+          "Nadarr",
+          "Pandjed",
+          "Patrin",
+          "Rhogar",
+          "Shamash",
+          "Shedinn",
+          "Tarhun",
+          "Torinn"
+        ],
+        "female": [
+          "Akra",
+          "Biri",
+          "Daar",
+          "Farideh",
+          "Harann",
+          "Havilar",
+          "Jheri",
+          "Kava",
+          "Korinn",
+          "Mishann",
+          "Nala",
+          "Perra",
+          "Raiann",
+          "Sora",
+          "Surina",
+          "Thava",
+          "Uadjit"
+        ],
+        "childhood": [
+          "Climber",
+          "Earbender",
+          "Leaper",
+          "Pious",
+          "Shieldbiter",
+          "Zealous"
+        ],
+        "clan": [
+          "Clethtinthiallor",
+          "Daardendrian",
+          "Delmirev",
+          "Drachedandion",
+          "Fenkenkabradon",
+          "Kepeshkmolik",
+          "Kerrhylon",
+          "Kimbatuul",
+          "Linxakasendalor",
+          "Myastan",
+          "Nemmonis",
+          "Norixius",
+          "Ophinshtalajiir",
+          "Prexijandilin",
+          "Shestendeliath",
+          "Turnuroth",
+          "Verthisathurgiesh",
+          "Yarjerit"
+        ]
+      }
+    },
+    "traits": [
+      {
+        "name": "Ability Score Increase",
+        "ability_score_increase": {
+          "strength": 2,
+          "charisma": 1
+        }
+      },
+      {
+        "name": "Age",
+        "description": "<p>Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.</p>"
+      },
+      {
+        "name": "Size",
+        "value": "Medium",
+        "description": "<p>Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds.</p>"
+      },
+      {
+        "name": "Speed",
+        "value": 30
+      },
+      {
+        "name": "Languages",
+        "speak": ["Common", "Draconic"],
+        "read": ["Common", "Draconic"],
+        "write": ["Common", "Draconic"]
+      }
+    ],
+    "subrace": {
+      "name": "Draconic Ancestry",
+      "descriptions": [
+        {
+          "title": "Draconic Ancestry",
+          "text": "<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry. Your breath weapon and damage resistance are determined by the dragon type.</p>"
+        },
+        {
+          "title": "Breath Weapon",
+          "text": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>"
+        },
+        {
+          "title": "Resistance",
+          "text": "<p>You have resistance to the damage type associated with your draconic ancestry.</p>"
+        }
+      ],
+      "division": [
+        {
+          "id": 1,
+          "name": "Black",
+          "details": "<p>Black Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Acid"]
+            },
+            {
+              "name": "Attack",
+              "value": [41]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Blue",
+          "details": "<p>Blue Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Lightning"]
+            },
+            {
+              "name": "Attack",
+              "value": [44]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Brass",
+          "details": "<p>Brass Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Fire"]
+            },
+            {
+              "name": "Attack",
+              "value": [43]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Bronze",
+          "details": "<p>Bronze Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Lightning"]
+            },
+            {
+              "name": "Attack",
+              "value": [44]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Copper",
+          "details": "<p>Copper Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Acid"]
+            },
+            {
+              "name": "Attack",
+              "value": [41]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Gold",
+          "details": "<p>Gold Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Fire"]
+            },
+            {
+              "name": "Attack",
+              "value": [43]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Green",
+          "details": "<p>Green Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Poison"]
+            },
+            {
+              "name": "Attack",
+              "value": [45]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Red",
+          "details": "<p>Red Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Fire"]
+            },
+            {
+              "name": "Attack",
+              "value": [43]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Silver",
+          "details": "<p>Silver Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Cold"]
+            },
+            {
+              "name": "Attack",
+              "value": [42]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "White",
+          "details": "<p>White Dragon</p>",
+          "traits": [
+            {
+              "name": "Resistance",
+              "value": ["Cold"]
+            },
+            {
+              "name": "Attack",
+              "value": [42]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dwarf",
+    "base": "basic",
+    "expansion": false,
+    "details": [
+      {
+        "title": "Dwarf",
+        "description": "<p>Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves.</p>"
+      },
+      {
+        "title": "Short and Stout",
+        "description": "<p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p><p>Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.</p>"
+      },
+      {
+        "title": "Long Memory, Long Grudges",
+        "description": "<p>Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.</p><p>Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don’t abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.</p><p>Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.</p>"
+      },
+      {
+        "title": "Clans and Kingdoms",
+        "description": "<p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can’t find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p><p>The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors’ names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.</p><p>Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty.</p>"
+      },
+      {
+        "title": "Gods, Gold, and Clan",
+        "description": "<p>Dwarves who take up the adventuring life might be motivated by a desire for treasure for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan’s lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago.</p>"
+      }
+    ],
+    "names": {
+      "description": "<p>A dwarf’s name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf’s name belongs to the clan, not to the individual. A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.</p>",
+      "types": {
+        "male": [
+          "Adrik",
+          "Alberich",
+          "Baern",
+          "Barendd",
+          "Brottor",
+          "Bruenor",
+          "Dain",
+          "Darrak",
+          "Delg",
+          "Eberk",
+          "Einkil",
+          "Fargrim",
+          "Flint",
+          "Gardain",
+          "Harbek",
+          "Kildrak",
+          "Morgran",
+          "Orsik",
+          "Oskar",
+          "Rangrim",
+          "Rurik",
+          "Taklinn",
+          "Thoradin",
+          "Thorin",
+          "Tordek",
+          "Traubon",
+          "Travok",
+          "Ulfgar",
+          "Veit",
+          "Vondal"
+        ],
+        "female": [
+          "Amber",
+          "Artin",
+          "Audhild",
+          "Bardryn",
+          "Dagnal",
+          "Diesa",
+          "Eldeth",
+          "Falkrunn",
+          "Finellen",
+          "Gunnloda",
+          "Gurdis",
+          "Helja",
+          "Hlin",
+          "Kathra",
+          "Kristryd",
+          "Ilde",
+          "Liftrasa",
+          "Mardred",
+          "Riswynn",
+          "Sannl",
+          "Torbera",
+          "Torgga",
+          "Vistra"
+        ],
+        "clan": [
+          "Balderk",
+          "Battlehammer",
+          "Brawnanvil",
+          "Dankil",
+          "Fireforge",
+          "Frostbeard",
+          "Gorunn",
+          "Holderhek",
+          "Ironfist",
+          "Loderr",
+          "Lutgehr",
+          "Rumnaheim",
+          "Strakeln",
+          "Torunn",
+          "Ungart"
+        ]
+      }
+    },
+    "traits": [
+      {
+        "name": "Ability Score Increase",
+        "ability_score_increase": {
+          "constitution": 2
+        }
+      },
+      {
+        "name": "Age",
+        "description": "<p>Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.</p>"
+      },
+      {
+        "name": "Size",
+        "value": "Medium",
+        "description": "<p>Dwarves stand between 4 and 5 feet tall and average about 150 pounds.</p>"
+      },
+      {
+        "name": "Speed",
+        "value": 30,
+        "description": "Your speed is not reduced by wearing heavy armor."
+      },
+      {
+        "name": "Darkvision",
+        "description": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+      },
+      {
+        "name": "Dwarven Resilience",
+        "description": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “Combat” section).</p>"
+      },
+      {
+        "name": "Dwarven Combat Training",
+        "description": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>"
+      },
+      {
+        "name": "Tool Proficiency",
+        "description": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>"
+      },
+      {
+        "name": "Stonecunning",
+        "description": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
+      },
+      {
+        "name": "Languages",
+        "speak": ["Common", "Dwarvish"],
+        "read": ["Common", "Dwarvish"],
+        "write": ["Common", "Dwarvish"]
+      }
+    ],
+    "subrace": {
+      "name": "Dwarves Subraces",
+      "descriptions": [
+        {
+          "title": "Dwarves Subraces",
+          "description": "<p>Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.</p>"
+        }
+      ],
+      "division": [
+        {
+          "id": 1,
+          "name": "Hill Dwarf",
+          "details": "<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.</p>",
+          "traits": [
+            {
+              "name": "Ability Score Increase",
+              "ability_score_increase": {
+                "wisdom": 1
+              }
+            },
+            {
+              "name": "Dwarven Toughness",
+              "ability_score_increase_by_level": {
+                "max_hp": 1
+              },
+              "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Mountain Dwarf",
+          "details": "<p>As a mountain dwarf, you’re strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.</p>",
+          "traits": [
+            {
+              "name": "Ability Score Increase",
+              "value": {
+                "strength": 2
+              }
+            },
+            {
+              "name": "Dwarven Armor Training",
+              "proficiency": ["Light Armor", "Medium Armor"],
+              "description": "You have proficiency with light and medium armor."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Elf",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 4,
+    "name": "Gnome",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 5,
+    "name": "Half-Elf",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 6,
+    "name": "Halfling",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 7,
+    "name": "Half-Orc",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 8,
+    "name": "Human",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  },
+  {
+    "id": 9,
+    "name": "Tiefling",
+    "base": "basic",
+    "expansion": false,
+    "details": null,
+    "names": null,
+    "traits": null,
+    "subrace": null
+  }
+]
