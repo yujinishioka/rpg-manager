@@ -1,4 +1,4 @@
-export default function Action() {
+export default function Actions() {
   return (
     <></>
   )
