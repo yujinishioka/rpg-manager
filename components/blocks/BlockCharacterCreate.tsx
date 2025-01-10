@@ -197,6 +197,7 @@ export default function BlockCharacterCreate({ data }: any) {
     setGender("male");
     setName("");
     setSelectedRace(null);
+    setSelectedSubRace(null);
     setSelectedClass(null);
     setSelectedMorality(null);
     setSelectedAttitude(null);
@@ -265,7 +266,7 @@ export default function BlockCharacterCreate({ data }: any) {
               value={name}
               onChange={handleNameChange}
               required
-              className="w-[180px] px-3 py-2 text-sm border rounded-md lg:w-[240px]"
+              className="w-[180px] px-3 py-2 text-sm border rounded-md border-secondary bg-transparent lg:w-[240px]"
             />
           </label>
           <label className="flex gap-2 items-center justify-between">
@@ -274,7 +275,7 @@ export default function BlockCharacterCreate({ data }: any) {
               value={selectedRace?.name || ""}
               onValueChange={handleRaceChange}
             >
-              <SelectTrigger className="w-[180px] lg:w-[240px]">
+              <SelectTrigger className="w-[180px] border-secondary bg-transparent lg:w-[240px]">
                 <SelectValue placeholder="Select a race" />
               </SelectTrigger>
               <SelectContent>
@@ -294,7 +295,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={selectedSubRace?.name || ""}
                 onValueChange={handleSubRaceChange}
               >
-                <SelectTrigger className="w-[180px] lg:w-[240px]">
+                <SelectTrigger className="w-[180px] border-secondary bg-transparent lg:w-[240px]">
                   <SelectValue placeholder="Select a subrace" />
                 </SelectTrigger>
                 <SelectContent>
@@ -317,7 +318,7 @@ export default function BlockCharacterCreate({ data }: any) {
               value={selectedClass?.name || ""}
               onValueChange={handleClassChange}
             >
-              <SelectTrigger className="w-[180px] lg:w-[240px]">
+              <SelectTrigger className="w-[180px] border-secondary bg-transparent lg:w-[240px]">
                 <SelectValue placeholder="Select a class" />
               </SelectTrigger>
               <SelectContent>
@@ -340,7 +341,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={selectedMorality ?? ""}
                 onValueChange={setSelectedMorality}
               >
-                <SelectTrigger className="w-[180px]">
+                <SelectTrigger className="w-[180px] border-secondary bg-transparent">
                   <SelectValue placeholder="Select a morality" />
                 </SelectTrigger>
                 <SelectContent>
@@ -359,7 +360,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={selectedAttitude ?? ""}
                 onValueChange={setSelectedAttitude}
               >
-                <SelectTrigger className="w-[180px]">
+                <SelectTrigger className="w-[180px] border-secondary bg-transparent">
                   <SelectValue placeholder="Select an attitude" />
                 </SelectTrigger>
                 <SelectContent>
@@ -417,7 +418,7 @@ export default function BlockCharacterCreate({ data }: any) {
                         min={3}
                         max={18}
                         required
-                        className="flex w-[55px] py-1 border border-secondary rounded text-center"
+                        className="flex w-[55px] py-1 border border-secondary bg-transparent rounded text-center"
                       />
                     </label>
                   ))}
@@ -474,7 +475,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={age}
                 onChange={handleAgeChange}
                 min={1}
-                className="w-[100px] p-1 text-center text-sm border rounded"
+                className="w-[100px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex gap-2 items-center justify-between">
@@ -485,7 +486,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={height}
                 onChange={handleHeightChange}
                 min={1}
-                className="w-[100px] p-1 text-center text-sm border rounded"
+                className="w-[100px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex gap-2 items-center justify-between">
@@ -496,7 +497,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 value={weight}
                 onChange={handleWeightChange}
                 min={1}
-                className="w-[100px] p-1 text-center text-sm border rounded"
+                className="w-[100px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex gap-2 items-center justify-between">
@@ -506,7 +507,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 type="text"
                 value={hair}
                 onChange={handleHairChange}
-                className="w-[180px] p-1 text-center text-sm border rounded"
+                className="w-[180px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex gap-2 items-center justify-between">
@@ -516,7 +517,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 type="text"
                 value={skin}
                 onChange={handleSkinChange}
-                className="w-[180px] p-1 text-center text-sm border rounded"
+                className="w-[180px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex gap-2 items-center justify-between">
@@ -526,7 +527,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 type="text"
                 value={eyes}
                 onChange={handleEyesChange}
-                className="w-[180px] p-1 text-center text-sm border rounded"
+                className="w-[180px] p-1 text-center text-sm border rounded border-secondary bg-transparent"
               />
             </label>
             <label className="flex flex-col gap-2 items-center justify-between lg:flex-row">
@@ -536,7 +537,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 rows={8}
                 value={personality}
                 onChange={handlePersonalityChange}
-                className="w-full p-1 content-center text-center text-sm border rounded lg:w-[180px]"
+                className="w-full p-1 content-center text-center text-sm border rounded border-secondary bg-transparent lg:w-[180px]"
               />
             </label>
             <label className="flex flex-col gap-2 items-center justify-between lg:flex-row">
@@ -546,7 +547,7 @@ export default function BlockCharacterCreate({ data }: any) {
                 rows={8}
                 value={ideals}
                 onChange={handleIdealsChange}
-                className="w-full p-1 content-center text-center text-sm border rounded lg:w-[180px]"
+                className="w-full p-1 content-center text-center text-sm border rounded border-secondary bg-transparent lg:w-[180px]"
               />
             </label>
           </div>

@@ -11,16 +11,16 @@ export default function BlockCharacterAccordion({ data }: any) {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="w-full flex rounded-t-lg text-white">
+                <Disclosure.Button className="grid grid-cols-2 w-full rounded-t-lg text-sm text-white">
                   <h2
-                    className={`w-1/2 h-full bg-primary rounded-tl-lg px-2 py-4 uppercase lg:py-1
+                    className={`h-full bg-primary rounded-tl-lg px-2 py-4 uppercase lg:py-1
                       ${open ? "" : "rounded-bl-lg"}
                     `}
                   >
                     {item.name}
                   </h2>
                   <div
-                    className={`w-1/2 bg-primary-light rounded-tr-lg flex flex-col justify-between px-4 py-1 lg:flex-row
+                    className={`h-full bg-primary-light rounded-tr-lg flex flex-col justify-between px-4 py-1 lg:flex-row
                       ${open ? "" : "rounded-br-lg"}
                     `}
                   >

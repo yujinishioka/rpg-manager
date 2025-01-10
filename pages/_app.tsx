@@ -18,7 +18,7 @@ const opensans = Open_Sans({
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${barlow.className} ${opensans.className}`}>
+    <div className={`bg-black/25 ${barlow.className} ${opensans.className}`}>
       <Header />
       <Component {...pageProps} />
       <Footer />
