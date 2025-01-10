@@ -3,11 +3,43 @@
     "id": 1,
     "name": "Luna",
     "level": 20,
+    "exp": 355000,
+    "alignment": "Chaotic good",
     "races": [
       { "id": 1, "name": "Human", "subrace": null },
       { "id": 2, "name": "Elf", "subrace": null }
     ],
-    "classes": [{ "id": 1, "name": "Rogue", "level": 20 }]
+    "classes": [{ "id": 1, "name": "Rogue", "level": 20 }],
+    "status": {
+      "str": 8,
+      "dex": 20,
+      "con": 16,
+      "int": 13,
+      "wis": 10,
+      "cha": 18
+    },
+    "proficiency": ["acrobatics", "deception", "perception", "stealth"],
+    "languages": ["commun", "elf"],
+    "background": "",
+    "details": {
+      "age": null,
+      "height": null,
+      "weight": null,
+      "eyes_color": null,
+      "skin_color": null,
+      "hair_color": null,
+      "personality_traits": null,
+      "ideals": null,
+      "flaws": null,
+      "bonds": null,
+      "allies_and_organizations": {
+        "name": null,
+        "url_symbol": null
+      },
+      "character_history": null,
+      "features_and_talents": null,
+      "treasures": null
+    }
   },
   {
     "id": 2,

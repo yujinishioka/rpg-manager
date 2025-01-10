@@ -7,7 +7,7 @@ export default function Home() {
     },
     {
       id: 2,
-      title: "Campaign",
+      title: "Campaigns",
       descriptions: [
         "displays created campaigns",
         "campaign creation with a character or as a game master",

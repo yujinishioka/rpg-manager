@@ -5,7 +5,7 @@ import Menu from "@/components/nav/Menu";
 export default function Header() {
   const menuItens: ItemMenu[] = [
     { name: "Characters", href: "characters" },
-    { name: "Campaign", href: "campaign" },
+    { name: "Campaigns", href: "campaigns" },
     { name: "Wiki", href: "wiki" },
     { name: "Notes", href: "notes" },
     { name: "Account", href: "account" },

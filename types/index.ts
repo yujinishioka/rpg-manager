@@ -7,6 +7,20 @@ export type AbilityScores = {
   cha: number;
 };
 
+export type Character = {
+  id: number;
+  name: string;
+  level: number;
+  races: Race[];
+  classes: ClassT[];
+};
+
+export type ClassT = {
+  id: number;
+  name: string;
+  level: number;
+}
+
 export type Detail = {
   title: string;
   description: string;
@@ -16,6 +30,12 @@ export type ItemMenu = {
   name: string;
   href: string;
 };
+
+export type Race = {
+  id: number;
+  name: string;
+  subrace: string | null;
+}
 
 export type SkillsProficiency = {
   acrobatics: boolean;
