@@ -4,12 +4,12 @@
 
 @layer base {
   .custom-min-margin {
-    min-height: calc(100vh - 10.4rem /* 166.4px */);
+    min-height: calc(100vh - 15rem);
   }
 
   @media (min-width: 1024px) {
     .custom-min-margin {
-      min-height: calc(100vh - 10rem /* 160px */);
+      min-height: calc(100vh - 17rem);
     }
   }
 }

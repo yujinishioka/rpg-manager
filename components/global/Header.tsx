@@ -12,12 +12,17 @@ export default function Header() {
   ];
 
   return (
-    <div className="py-4 bg-secondary">
-      <div className="container flex items-center justify-between text-white">
-        <Link href="/">RPG maker</Link>
-        <p>logo</p>
-        <Menu items={menuItens} />
+    <>
+      <div className="fixed w-[90vw] top-2 py-4 rounded-3xl bg-secondary/80">
+        <div className="container flex items-center justify-between gap-3 text-white lg:flex-col">
+          <Link href="/" className="flex flex-col items-center gap-1">
+            <p>logo</p>
+            <p>RPG maker</p>
+          </Link>
+          <Menu items={menuItens} />
+        </div>
       </div>
-    </div>
+      <div className="w-full h-24 lg:h-32"/>
+    </>
   );
 }

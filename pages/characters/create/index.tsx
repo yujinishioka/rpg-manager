@@ -16,7 +16,7 @@ export default function CharacterCreate(): any {
   };
 
   return (
-    <div className="custom-min-margin my-6">
+    <div className="container custom-min-margin my-6">
       <BlockCharacterCreate data={data} />
     </div>
   );
