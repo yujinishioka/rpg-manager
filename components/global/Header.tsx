@@ -8,7 +8,7 @@ export default function Header() {
     { name: "Campaigns", href: "campaigns" },
     { name: "Wiki", href: "wiki" },
     { name: "Notes", href: "notes" },
-    { name: "Account", href: "account" },
+    { name: "Seetings", href: "seetings" },
   ];
 
   return (

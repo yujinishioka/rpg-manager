@@ -1,4 +1,6 @@
 import Link from "next/link";
+import classes from "@/data/classes.json";
+import races from "@/data/races.json";
 
 export default function CardCharacter({ data }: any) {
   return (
@@ -8,22 +10,29 @@ export default function CardCharacter({ data }: any) {
           <h2>Races:</h2>
           {data?.races &&
             data.races.length > 0 &&
-            data.races.map((race: any) => (
-              <p key={`race-${race.id}`}>
-                {race.name}
-                {race.subrace !== null ? " - " + race.subrace : ""}
-              </p>
-            ))}
+            data.races.map((race: any) => {
+              const userRace = races.find(({ id }: any) => id === race.id);
+              const userSubrace = userRace?.subrace?.division.find(({ id }: any) => id === race?.subrace);
+              return (
+                <p key={`race-${race.id}`}>
+                  {userRace?.name}
+                  {race.subrace !== null ? " - " + userSubrace?.name : ""}
+                </p>
+              )
+            })}
         </div>
         <div className="ml-2">
           <h2>Class:</h2>
           {data?.classes &&
             data.classes.length > 0 &&
-            data.classes.map((classChar: any) => (
-              <p key={`classChar-${classChar.id}`}>
-                {classChar.name}: {classChar.level}
-              </p>
-            ))}
+            data.classes.map((classe: any) => {
+              const userClasse = classes.find(({ id }: any) => id === classe.id);
+              return (
+                <p key={`class-${classe.id}`}>
+                  {userClasse?.name}: {classe.level}
+                </p>
+              )
+            })}
         </div>
       </div>
       <Link

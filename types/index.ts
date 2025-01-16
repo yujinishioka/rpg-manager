@@ -11,8 +11,39 @@ export type Character = {
   id: number;
   name: string;
   level: number;
-  races: Race[];
-  classes: ClassT[];
+  exp: number;
+  alignment: string;
+  races: {
+    id: number;
+    subrace: number | null;
+  }[];
+  classes: {
+    id: number;
+    level: number;
+  }[];
+  status: AbilityScores;
+  proficiency?: string[];
+  languages?: string[];
+  background?: string | null;
+  details?: {
+    age: number | null,
+    height: number | null,
+    weight: number | null,
+    eyes_color: string | null,
+    skin_color: string | null,
+    hair_color: string | null,
+    personality_traits: string | null,
+    ideals: string | null,
+    flaws: string | null,
+    bonds: string | null,
+    allies_and_organizations: {
+      name: string | null,
+      url_symbol: string | null
+    },
+    character_history: string | null,
+    features_and_talents: string | null,
+    treasures: string | null
+  }
 };
 
 export type ClassT = {
@@ -34,7 +65,7 @@ export type ItemMenu = {
 export type Race = {
   id: number;
   name: string;
-  subrace: string | null;
+  subrace: number | null;
 }
 
 export type SkillsProficiency = {

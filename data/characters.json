@@ -5,11 +5,8 @@
     "level": 20,
     "exp": 355000,
     "alignment": "Chaotic good",
-    "races": [
-      { "id": 1, "name": "Human", "subrace": null },
-      { "id": 2, "name": "Elf", "subrace": null }
-    ],
-    "classes": [{ "id": 1, "name": "Rogue", "level": 20 }],
+    "races": [{ "id": 5, "subrace": null }],
+    "classes": [{ "id": 9, "level": 20 }],
     "status": {
       "str": 8,
       "dex": 20,
@@ -45,17 +42,35 @@
     "id": 2,
     "name": "Sebas",
     "level": 20,
-    "races": [{ "id": 3, "name": "Dragonborn", "subrace": "Red" }],
-    "classes": [
-      { "id": 2, "name": "Monk", "level": 17 },
-      { "id": 3, "name": "Fighter", "level": 3 }
-    ]
+    "exp": 355000,
+    "alignment": "Lawful good",
+    "races": [{ "id": 1, "subrace": 8 }],
+    "classes": [{ "id": 5, "level": 12 }, { "id": 6, "level": 8 }],
+    "status": {
+      "str": 10,
+      "dex": 20,
+      "con": 16,
+      "int": 8,
+      "wis": 20,
+      "cha": 8
+    },
+    "proficiency": ["acrobatics", "athletics", "intimidation","perception"]
   },
   {
     "id": 3,
     "name": "Touch Me",
     "level": 20,
-    "races": [{ "id": 4, "name": "Human", "subrace": null }],
-    "classes": [{ "id": 2, "name": "Warrior", "level": 20 }]
+    "exp": 355000,
+    "alignment": "Lawful good",
+    "races": [{ "id": 8, "subrace": null }],
+    "classes": [{ "id": 7, "level": 20 }],
+    "status": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10
+    }
   }
 ]

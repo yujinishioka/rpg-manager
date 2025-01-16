@@ -27,8 +27,8 @@ export default function Home() {
     },
     {
       id: 5,
-      title: "Account",
-      descriptions: ["displays profile and allows data editing"],
+      title: "Seetings",
+      descriptions: ["displays preferences and allows data editing"],
     },
   ];
 
