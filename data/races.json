@@ -21,72 +21,10 @@
     "names": {
       "description": "<p>Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.</p>",
       "types": {
-        "male": [
-          "Arjhan",
-          "Balasar",
-          "Bharash",
-          "Donaar",
-          "Ghesh",
-          "Heskan",
-          "Kriv",
-          "Medrash",
-          "Mehen",
-          "Nadarr",
-          "Pandjed",
-          "Patrin",
-          "Rhogar",
-          "Shamash",
-          "Shedinn",
-          "Tarhun",
-          "Torinn"
-        ],
-        "female": [
-          "Akra",
-          "Biri",
-          "Daar",
-          "Farideh",
-          "Harann",
-          "Havilar",
-          "Jheri",
-          "Kava",
-          "Korinn",
-          "Mishann",
-          "Nala",
-          "Perra",
-          "Raiann",
-          "Sora",
-          "Surina",
-          "Thava",
-          "Uadjit"
-        ],
-        "childhood": [
-          "Climber",
-          "Earbender",
-          "Leaper",
-          "Pious",
-          "Shieldbiter",
-          "Zealous"
-        ],
-        "clan": [
-          "Clethtinthiallor",
-          "Daardendrian",
-          "Delmirev",
-          "Drachedandion",
-          "Fenkenkabradon",
-          "Kepeshkmolik",
-          "Kerrhylon",
-          "Kimbatuul",
-          "Linxakasendalor",
-          "Myastan",
-          "Nemmonis",
-          "Norixius",
-          "Ophinshtalajiir",
-          "Prexijandilin",
-          "Shestendeliath",
-          "Turnuroth",
-          "Verthisathurgiesh",
-          "Yarjerit"
-        ]
+        "male": ["Arjhan", "Balasar", "Bharash", "Donaar", "Ghesh", "Heskan", "Kriv", "Medrash", "Mehen", "Nadarr", "Pandjed", "Patrin", "Rhogar", "Shamash", "Shedinn", "Tarhun", "Torinn"],
+        "female": ["Akra", "Biri", "Daar", "Farideh", "Harann", "Havilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora", "Surina", "Thava", "Uadjit"],
+        "childhood": ["Climber", "Earbender", "Leaper", "Pious", "Shieldbiter", "Zealous"],
+        "clan": ["Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul", "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth", "Verthisathurgiesh", "Yarjerit"]
       }
     },
     "traits": [
@@ -317,80 +255,9 @@
     "names": {
       "description": "<p>A dwarf’s name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf’s name belongs to the clan, not to the individual. A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.</p>",
       "types": {
-        "male": [
-          "Adrik",
-          "Alberich",
-          "Baern",
-          "Barendd",
-          "Brottor",
-          "Bruenor",
-          "Dain",
-          "Darrak",
-          "Delg",
-          "Eberk",
-          "Einkil",
-          "Fargrim",
-          "Flint",
-          "Gardain",
-          "Harbek",
-          "Kildrak",
-          "Morgran",
-          "Orsik",
-          "Oskar",
-          "Rangrim",
-          "Rurik",
-          "Taklinn",
-          "Thoradin",
-          "Thorin",
-          "Tordek",
-          "Traubon",
-          "Travok",
-          "Ulfgar",
-          "Veit",
-          "Vondal"
-        ],
-        "female": [
-          "Amber",
-          "Artin",
-          "Audhild",
-          "Bardryn",
-          "Dagnal",
-          "Diesa",
-          "Eldeth",
-          "Falkrunn",
-          "Finellen",
-          "Gunnloda",
-          "Gurdis",
-          "Helja",
-          "Hlin",
-          "Kathra",
-          "Kristryd",
-          "Ilde",
-          "Liftrasa",
-          "Mardred",
-          "Riswynn",
-          "Sannl",
-          "Torbera",
-          "Torgga",
-          "Vistra"
-        ],
-        "clan": [
-          "Balderk",
-          "Battlehammer",
-          "Brawnanvil",
-          "Dankil",
-          "Fireforge",
-          "Frostbeard",
-          "Gorunn",
-          "Holderhek",
-          "Ironfist",
-          "Loderr",
-          "Lutgehr",
-          "Rumnaheim",
-          "Strakeln",
-          "Torunn",
-          "Ungart"
-        ]
+        "male": ["Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardain", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"],
+        "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"],
+        "clan": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"]
       }
     },
     "traits": [
@@ -499,10 +366,34 @@
     "details": [
       {
         "title": "Elf",
-        "description": "<p>Elves are a magical people of otherworldly grace, living in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry.</p>"
+        "description": "<p>Elves are a magical people of otherworldly grace, living in the w orld but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>"
+      },
+      {
+        "title": "Slender and Graceful",
+        "description": "<p>With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and m em bers of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are m ore slender than humans, weighing only 100 to 145 pounds. M ales and females are about the same height, and males are only marginally heavier than females. Elves’ coloration encom passes the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.</p>"
+      },
+      {
+        "title": "A Timeless Perspective",
+        "description": "<p>Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorterlived races m ore deeply. They are m ore often amused than excited, and m ore likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. W hen pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance. Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and com prom ise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their w oodland hom es, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.</p>"
+      },
+      {
+        "title": "Hidden Woodland Realms",
+        "description": "<p>Most elves dwell in small forest villages hidden am ong the trees. Elves hunt game, gather food, and grow vegetables, and their skill and m agic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for m etals (which they have no interest in mining). Elves encountered outside their ow n lands are com m only traveling minstrels, artists, or sages. Human nobles com pete for the services of elf instructors to teach swordplay or m agic to their children.</p>"
+      },
+      {
+        "title": "Exploration and Adventure",
+        "description": "<p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is both regimented from day to day and constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes.</p>"
       }
     ],
-    "names": null,
+    "names": {
+      "description": "<p>Elves are considered children until they declare themselves adults, som e time after the hundredth birthday, and before this period they are called by child names.</p><p>On declaring adulthood, an elf selects an adult name, although those w ho knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the nam es o f respected individuals or other family m em bers. Little distinction exists between male nam es and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a com bination of other Elvish words. Som e elves traveling am ong humans translate their family nam es into Com m on, but others retain the Elvish version.</p>",
+      "types": {
+        "child": ["Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall"],
+        "male": ["Adran", "Aelar", "Aramil", "Arannis", "Aust", "Beiro", "Berrian", "Carric", "Enialis", "Erdan", "Erevan", "Galinndan", "Hadarai", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Peren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Theren", "Varis"],
+        "female": ["Adrie", "Althaea", "Anastrianna", "Andraste", "Antinua", "Bethrynna", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Ielenia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quelenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastra", "Thia", "Vadania", "Valanthe", "Xanaphia"],
+        "family": ["Amakiir (Gemflower)", "Amastacia (Starflower)", "Galanodel (Moonwhisper)", "Holimion (Diamonddew)", "Ilphelkiir (Gemblossom)", "Liadon (Silverfrond)", "Meliamne (Oakenheel)", "Nai'lo (Nightbreeze)", "Siannodel (Moonbrook)", "Xiloscient (Goldpetal)"]
+      }
+    },
     "traits": null,
     "subrace": null
   },
@@ -511,7 +402,12 @@
     "name": "Gnome",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Gnome",
+        "description": "<p>A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
@@ -521,7 +417,12 @@
     "name": "Half-Elf",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Half-Elf",
+        "description": "<p>Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
@@ -531,7 +432,12 @@
     "name": "Halfling",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Halfling",
+        "description": "<p>The comforts of home are the goals of most halflings lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
@@ -541,7 +447,12 @@
     "name": "Half-Orc",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Half-Orc",
+        "description": "<p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
@@ -551,7 +462,12 @@
     "name": "Human",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Human",
+        "description": "<p>In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
@@ -561,7 +477,12 @@
     "name": "Tiefling",
     "base": "basic",
     "expansion": false,
-    "details": null,
+    "details": [
+      {
+        "title": "Tiefling",
+        "description": "<p>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.</p>"
+      }
+    ],
     "names": null,
     "traits": null,
     "subrace": null
