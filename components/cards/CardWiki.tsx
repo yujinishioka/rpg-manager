@@ -4,7 +4,7 @@ import Html from "@/components/html/Html";
 export default function CardWiki({ data }: any) {
   return (
     <Link
-      href={`/wiki/${data.title}`}
+      href={`/wiki/${data.type.toLowerCase().replace(/\s+/g, "-")}/${data.title.toLowerCase().replace(/\s+/g, "-")}`}
       className="flex flex-col p-4 gap-2 bg-secondary/30 rounded-lg"
     >
       <div className="flex items-center justify-between">
