@@ -1,5 +1,7 @@
 import Link from "next/link";
-import FooterMenu from "../nav/FooterMenu";
+import Image from "next/image";
+import FooterMenu from "@/components/nav/FooterMenu";
+import logo from "@/public/logo-transparent.png";
 
 export default function Footer() {
   return (
@@ -11,7 +13,8 @@ export default function Footer() {
           <p>2025</p>
         </div>
         <div className="flex flex-col items-center md:order-2">
-          <p>developed by <span className="font-bold">Yuuni</span></p>
+          <Image src={logo} alt="logo Yuunity" className="w-[50px] h-full pb-2" />
+          <p>developed by <span className="font-bold">Yuunity</span></p>
           <div className="flex text-sm text-black">
             <Link href="https://github.com/yujinishioka" className="py-1 px-2 hover:text-blue-300">Github</Link>
             <Link href="https://www.linkedin.com/in/yuji-nishioka/" className="py-1 px-2 hover:text-blue-300">LinkedIn</Link>
