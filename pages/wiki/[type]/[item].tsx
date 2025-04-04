@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import Html from '@/components/html/Html';
 
 const fetchItemData = async (type: string, item: string) => {
   let filePath = '';
@@ -12,7 +13,7 @@ const fetchItemData = async (type: string, item: string) => {
       title: 'Erro',
       content: [{
         title: 'Tipo de dados não encontrado',
-        description: 'Procure um administrador para adicionar este tipo de dados.',
+        description: '<p>Procure um administrador para adicionar este tipo de dados.</p>',
       }]
     };
   }
@@ -33,7 +34,7 @@ const fetchItemData = async (type: string, item: string) => {
       title: 'Item não encontrado',
       content: [{
         title: 'Não foi possível encontrar os dados para este item.',
-        description: 'Procure um administrador para adicionar este tipo de dados.',
+        description: '<p>Procure um administrador para adicionar este tipo de dados.</p>',
       }]
     };
   } catch (error) {
@@ -42,7 +43,7 @@ const fetchItemData = async (type: string, item: string) => {
       title: 'Erro',
       content: [{
         title: 'Houve um erro ao carregar os dados.',
-        description: 'Procure um administrador para verificar o problema.',
+        description: '<p>Procure um administrador para verificar o problema.</p>',
       }]
     };
   }
@@ -63,12 +64,10 @@ export default function Wiki({ data }: any) {
   return (
     <div className="container custom-min-margin my-6 items-center">
       {data?.content?.map((item: any, index: number) => (
-        <div key={index}>
+        <div key={'card-' + index} className="flex flex-col p-4 gap-2 bg-secondary/10 rounded-lg mb-4">
           <h2 className="text-lg font-bold">{item.title}</h2>
           {item.description && (
-            <p className="text-sm text-justify text-black/70">
-              {item.description}
-            </p>
+            <Html text={item.description} className="text-sm text-justify text-black/70"/>
           )}
         </div>
       ))}
