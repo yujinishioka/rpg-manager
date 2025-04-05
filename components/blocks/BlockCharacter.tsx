@@ -58,7 +58,7 @@ export default function BlockCharacter({ character }: any) {
   }
 
   return (character != null) ? (
-    <div className="grid gap-8 lg:grid-cols-2">
+    <div className="grid gap-8 bg-white/75 p-6 rounded-3xl lg:grid-cols-2">
       <div className="flex flex-col gap-4">
         <div>
           <p className="font-bold">Character sheets</p>
@@ -127,7 +127,7 @@ export default function BlockCharacter({ character }: any) {
               )
             })}
           </div>
-          <p className="text-sm">text in bold are with proficiency*</p>
+          <p className="text-xs italic">text in bold are with proficiency</p>
         </div>
         <div>
           <p className="font-bold">combat</p>

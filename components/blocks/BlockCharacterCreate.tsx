@@ -236,7 +236,7 @@ export default function BlockCharacterCreate({ data }: any) {
     alignmentEmpty();
 
   return (
-    <div className="container lg:flex lg:gap-12">
+    <div className="container bg-white/75 py-6 rounded-3xl lg:flex lg:gap-12">
       <div className="flex flex-col max-w-[768px] mb-6 gap-2 lg:w-[640px] lg:mb-0">
         <h1 className="mb-6 uppercase">Create Character</h1>
         <div className="flex flex-col gap-2">

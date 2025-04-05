@@ -18,7 +18,13 @@ export default function Header() {
       <div className="fixed w-[90vw] top-2 py-4 rounded-3xl bg-secondary/80">
         <div className="container flex items-center justify-between gap-3 text-white lg:flex-col">
           <Link href="/" className="flex items-center justify-center gap-1">
-            <Image src={logo} alt="logo Yuunity" className="w-[50px] h-full" />
+            <Image
+              src={logo}
+              alt="logo Yuunity"
+              width={489}
+              height={467}
+              className="w-[50px] h-full"
+            />
             <p>RPG maker</p>
           </Link>
           <Menu items={menuItens} />

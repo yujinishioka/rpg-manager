@@ -18,7 +18,7 @@ const opensans = Open_Sans({
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`flex flex-col items-center bg-black/25 ${barlow.className} ${opensans.className}`}>
+    <div className={`flex flex-col items-center bg-[url('/images/background-mobile.png')] bg-cover bg-center bg-no-repeat bg-fixed min-h-screen w-full md:bg-[url('/images/background.png')] ${barlow.className} ${opensans.className}`}>
       <Header />
       <Component {...pageProps} />
       <Footer />

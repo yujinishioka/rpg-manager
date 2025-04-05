@@ -33,8 +33,8 @@ export default function Home() {
   ];
 
   return (
-    <div className="container custom-min-margin my-6 lg:container">
-      <h1 className="mb-6 text-black/80">RPG Maker</h1>
+    <div className="container custom-min-margin bg-white/65 my-6 py-6 rounded-lg lg:container">
+      <h1 className="mb-6 text-black/80 font-bold">RPG Maker</h1>
       <h2 className="mb-4">Pages</h2>
       <div className="flex flex-col gap-6 text-black/70">
         {data &&

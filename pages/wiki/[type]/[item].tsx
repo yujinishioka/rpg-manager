@@ -64,10 +64,10 @@ export default function Wiki({ data }: any) {
   return (
     <div className="container custom-min-margin my-6 items-center">
       {data?.content?.map((item: any, index: number) => (
-        <div key={'card-' + index} className="flex flex-col p-4 gap-2 bg-secondary/10 rounded-lg mb-4">
+        <div key={'card-' + index} className="flex flex-col p-4 gap-2 bg-secondary/70 text-white rounded-lg mb-4">
           <h2 className="text-lg font-bold">{item.title}</h2>
           {item.description && (
-            <Html text={item.description} className="text-sm text-justify text-black/70"/>
+            <Html text={item.description} className="text-sm text-justify"/>
           )}
         </div>
       ))}
