@@ -1,44 +1,88 @@
-## Projeto
+# 🎲 RPG Manager
 
-## Inicialização
+Projeto desenvolvido para auxiliar no gerenciamento de campanhas de **RPG de mesa**, permitindo organizar personagens, enredos, regras e outros elementos importantes de forma prática e intuitiva.
 
-## Documentação
+🔗 [Acesse a versão de staging](https://rpg-manager-chi.vercel.app)
 
 ---
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🚀 Tecnologias Utilizadas
 
-## Getting Started
+| Tecnologia | Versão | Descrição |
+|------------|:------:|-----------|
+| [Next.js](https://nextjs.org) | 14.1.4 | Framework React para aplicações fullstack com renderização híbrida (SSR, SSG) |
+| [React](https://react.dev) | 18 | Biblioteca para construção de interfaces com componentes reutilizáveis |
+| [TypeScript](https://www.typescriptlang.org) | 5 | Superset do JavaScript com tipagem estática e recursos avançados |
+| [Tailwind CSS](https://tailwindcss.com) | 3.3.0 | Framework de classes utilitárias para estilização rápida e responsiva |
+| [Headless UI](https://headlessui.com) | - | Componentes acessíveis e sem estilos acoplados, integrados com Tailwind |
+| [Vercel](https://vercel.com) | - | Plataforma de hospedagem e deploy contínuo para aplicações Next.js |
 
-First, run the development server:
+---
+
+## 🧱 Estrutura do Projeto
+
+O projeto segue uma arquitetura modular com base nas boas práticas do ecossistema Next.js:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+rpg-manager/
+├── components/         # Componentes reutilizáveis que compõem a interface das páginas
+├── data/               # Arquivos de dados estáticos, como arquivos JSON
+├── libs/               # Funções auxiliares, hooks e integrações com bibliotecas externas
+├── pages/              # Páginas e rotas baseadas na estrutura de URLs
+│   ├── _app.tsx        # Configuração global da aplicação (ex: estilos globais, contextos)
+│   ├── [...slug].tsx   # Rota dinâmica para páginas com caminhos variáveis
+│   ├── 404.tsx         # Página personalizada para erro 404 (rota não encontrada)
+│   └── index.tsx       # Página inicial da aplicação
+├── public/             # Arquivos públicos acessíveis via URL (imagens, fontes, ícones)
+├── styles/             # Estilos globais, configurações do Tailwind e customizações
+└── types/              # Definições de tipos e interfaces utilizadas com TypeScript
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 📖 Cadastro e visualização de personagens
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* 📜 Organização de enredos, histórias e sessões
 
-## Learn More
+* 🗃️ Armazenamento local de dados via JSON (temporário)
 
-To learn more about Next.js, take a look at the following resources:
+* 🧩 Interface dinâmica e responsiva com Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 🔄 Roteamento dinâmico com Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* 📦 Estrutura modular com componentes reutilizáveis
 
-## Deploy on Vercel
+* 🔐 Preparado para futura adição de autenticação e banco de dados
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Como Rodar o Projeto Localmente
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório e acesse a pasta do projeto:
+
+    ``` bash
+    git clone https://github.com/yujinishioka/rpg-manager.git
+    cd rpg-manager
+    ```
+
+2. Instale as dependências (recomendado: Yarn):
+
+    ``` bash
+    npm install
+    # ou
+    yarn
+    ```
+
+3. Inicie o servidor de desenvolvimento:
+
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
+
+4. Acesse o projeto em seu navegador através de:
+
+    [http://localhost:3000](http://localhost:3000)
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da licença MIT. Sinta-se livre para utilizar, modificar e distribuir conforme necessário.
