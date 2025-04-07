@@ -14,7 +14,7 @@ export default function FooterMenu({ className }: FooterMenuProps) {
       <Link href="/campaigns" className={standardClassName}>Campaigns</Link>
       <Link href="/wiki" className={standardClassName}>Wiki</Link>
       <Link href="/notes" className={standardClassName}>Notes</Link>
-      <Link href="/seetings" className={standardClassName}>Seetings</Link>
+      <Link href="/settings" className={standardClassName}>Settings</Link>
     </div>
   );
 }
